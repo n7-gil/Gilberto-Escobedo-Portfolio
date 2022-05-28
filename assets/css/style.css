@@ -12,21 +12,23 @@ text-align: center;
 margin: 0;
 padding: 0;
 color: black;
+flex-wrap: wrap;
 
 
 }
 
 header {
     background-color: var(--foreground-color);
+    margin-bottom: 10px;
     
 }
 
-ul {
+header ul {
     text-align: right;
     margin-right: 10px;
 }
 
-ul li {
+header ul li {
     display: inline;
     font-weight: bolder;
     margin: 5px;
@@ -36,22 +38,46 @@ ul li {
 
 h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 50px;
+    font-size: 75px;
     text-align: center;
     flex-wrap: wrap;
-    
 }
+
+
+
+p {
+font-size: 15px;
+}
+
+#aboutme-potrait {
+    width: 200px;
+    padding: 15px;
+}
+
+.body {
+    height: 208px;
+    background-color: var(--foreground-color);
+    margin: 50px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
 
 h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 body{
     background-color: var(--background-color);
+    margin: 50px;
+    height: 208px;
+
 }
 
 
@@ -61,5 +87,20 @@ body{
 
 footer {
     background-color: var(--foreground-color);
+    bottom: 0px;
     
+}
+
+footer ul {
+    text-align: center;
+    bottom: 0px;
+}
+
+footer ul li {
+    display: inline;
+    font-weight: bolder;
+    margin: 150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+
 }
