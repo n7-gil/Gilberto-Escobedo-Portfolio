@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https:blo//fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 
 :root {
@@ -15,11 +15,14 @@ color: black;
 flex-wrap: wrap;
 scroll-behavior: smooth;
 box-sizing: border-box;
+
 }
 
 header {
     background-color: var(--foreground-color);
     margin-bottom: 10px;
+    box-shadow: black 0 10px 10px;
+    
 }
 
 header ul {
@@ -27,12 +30,12 @@ header ul {
     margin-right: 10px;
 }
 
-header ul li {
-    display: inline;
+nav ul li {
+    display: inline-flex;
     font-weight: bolder;
     margin: 10px;
     font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 main {
@@ -52,16 +55,19 @@ content {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: var(--foreground-color);
+    
 }
 
 .subject {
     margin: 20px;
     background-color: var(--foreground-color);
+    padding: 10px;
+    box-shadow: black 0 10px 10px;
 }
 
 h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 75px;
+    font-size: 45px;
     text-align: center;
     flex-wrap: wrap;
     }
@@ -79,21 +85,41 @@ h3 {
     font-size: 13px;
     }
 
-p {
+#about-me p {
 font-size: 15px;
+border-radius: 10px;
+
 }
 
 #work img {
-display: block;
-width: 460px;
-height:80px;
+width: 75%;
 margin-left: auto;
 margin-right: auto;
+box-shadow: black 0 2px 2px;
+border-radius: 10px;
+margin: 5px;
+
+}
+
+#work {
+    display: flex;
+    justify-content: center;
 }
 
 #aboutme-potrait {
-    width: 232px;
-    padding: 15px;
+    width: 25%;
+    box-shadow: black 0 5px 5px;
+    border-radius: 10px;
+    
+}
+
+#contact{
+    margin: 20px;
+    background-color: var(--foreground-color);
+    padding: 10px;
+    box-shadow: black 0 10px 10px;
+    justify-content: center;
+    overflow-wrap: break-word;
 }
 
 #contact p {
@@ -104,21 +130,45 @@ margin-right: auto;
 footer {
     background-color: var(--foreground-color);
     bottom: 0px;
+    box-shadow: black 0 10px 10px;
 }
 
 footer ul {
     text-align: center;
     bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 footer ul li {
     display: inline;
     font-weight: bolder;
-    margin: 150px;
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
-   flex-direction: column; 
+    header, footer {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    footer li {
+        margin:20px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
 }
+
