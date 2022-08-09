@@ -4,7 +4,7 @@
 
 :root {
     --background-color: #484848;
-    --foreground-color: antiquewhite;
+    --foreground-color: rgb(247, 245, 241);
     --font-color: black;
 }
 
@@ -36,7 +36,7 @@ nav ul li {
     font-weight: bolder;
     margin: 10px;
     font-family: 'Amatic SC', cursive;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 main {
@@ -70,7 +70,7 @@ content {
 
 h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 45px;
+    font-size: 70px;
     text-align: center;
     flex-wrap: wrap;
     font-weight: bold;
@@ -80,7 +80,7 @@ h1 {
 h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 15px;
     text-decoration: underline;
 }
@@ -91,13 +91,13 @@ h3 {
 }
 
 #aboutme-potrait {
-    width: 25%;
+    width: 22%;
     box-shadow: black 0 5px 5px;
     border-radius: 10px;
 }
 
 #about-me p {
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 10px;
     border: black;
     border-style: double;
@@ -106,7 +106,8 @@ h3 {
 
 /* conatins both images used in the work section  */
 #work img {
-    width: 75%;
+    width: 35%;
+    height: 45%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: black 0 2px 2px;
@@ -114,11 +115,15 @@ h3 {
     margin: 5px;
     border: black;
     border-style: double;
+    display: inline;
+    flex-wrap: wrap;
 }
+
 
 #work {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #contact {
@@ -134,7 +139,7 @@ h3 {
 
 #contact p {
     margin: 30px;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Abel', sans-serif;
 }
 
