@@ -83,6 +83,7 @@ h2 {
     font-size: 45px;
     margin-bottom: 15px;
     text-decoration: underline;
+    padding: 10px;
 }
 
 h3 {
@@ -97,10 +98,7 @@ h3 {
 }
 
 #about-me p {
-    font-size: 17px;
-    border-radius: 10px;
-    border: black;
-    border-style: double;
+    font-size: 17px;    
     font-family: 'Abel', sans-serif;
 }
 
@@ -157,6 +155,7 @@ footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 footer ul li {
