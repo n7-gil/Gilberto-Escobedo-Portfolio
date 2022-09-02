@@ -100,6 +100,7 @@ h3 {
 #about-me p {
     font-size: 17px;    
     font-family: 'Abel', sans-serif;
+    
 }
 
 /* conatins both images used in the work section  */
@@ -163,6 +164,7 @@ footer ul li {
     font-weight: bolder;
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 768px) {
